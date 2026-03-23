@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тенета Інтернету</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Segoe UI',sans-serif;
+background:#0f172a;
+color:#f1f5f9;
+}
+
+nav{
+position:fixed;
+width:100%;
+background:rgba(15,23,42,0.9);
+backdrop-filter:blur(10px);
+padding:15px 0;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:#38bdf8;
+text-decoration:none;
+margin:0 20px;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#1e3a8a,#0ea5e9);
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size:3rem;
+animation:fadeIn 2s ease;
+}
+
+header p{
+margin-top:20px;
+font-size:1.2rem;
+opacity:0.9;
+}
+
+section{
+padding:80px 10%;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+margin-bottom:40px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+h2{
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+ul{
+margin-left:20px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+font-size:0.9rem;
+opacity:0.7;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#about">Про проєкт</a>
+<a href="#history">Історія</a>
+<a href="#services">Сервіси</a>
+<a href="#importance">Значення</a>
+<a href="#conclusion">Висновки</a>
+</nav>
+
+<header>
+<h1>Тенета Інтернету</h1>
+<p>Навчальний проєкт з інформатики</p>
+<p>Виконав(ла):Конюченко Маргарита | Клас: 10-А</p>
+</header>
+
+<section id="about">
+<div class="card">
+<h2>Мета проєкту</h2>
+<p>
+Узагальнити відомості про мережу Інтернет, її історію створення,
+апаратні засоби, основні сервіси та значення для сучасної людини.
+</p>
+</div>
+</section>
+
+<section id="history">
+<div class="card">
+<h2>Історія виникнення</h2>
+<p>
+Інтернет бере початок з проєкту ARPANET (1969 рік).
+Спочатку мережа створювалася для військових та наукових цілей.
+Згодом вона стала глобальною системою обміну інформацією.
+</p>
+</div>
+</section>
+
+<section id="services">
+<div class="card">
+<h2>Основні сервіси Інтернету</h2>
+<ul>
+<li>WWW (веб‑сайти)</li>
+<li>Електронна пошта</li>
+<li>Соціальні мережі</li>
+<li>Хмарні технології</li>
+<li>Онлайн‑навчання</li>
+</ul>
+</div>
+</section>
+
+<section id="importance">
+<div class="card">
+<h2>Значення для людини</h2>
+<p>
+Інтернет забезпечує швидкий доступ до знань, спрощує комунікацію,
+дозволяє працювати дистанційно та розвивати бізнес.
+Проте існують ризики: кіберзлочинність, фейкова інформація, залежність.
+</p>
+</div>
+</section>
+
+<section id="conclusion">
+<div class="card">
+<h2>Висновки</h2>
+<p>
+Інтернет є ключовим елементом інформаційного суспільства.
+Його можливості величезні, але ефективність залежить від
+відповідального та безпечного використання.
+</p>
+</div>
+</section>
+
+<footer>
+© 2026 | Захист індивідуального навчального проєкту
+</footer>
+
+</body>
+</html>
